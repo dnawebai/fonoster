@@ -1,0 +1,28 @@
+# Linux production overrides for ELP GPT Fonoster.
+# Requires Docker Compose with support for the !reset merge tag.
+services:
+  rtpengine:
+    # Fonoster recommends host networking on Linux for production RTP ranges.
+    network_mode: host
+    ports: !reset []
+
+  postgres:
+    restart: always
+
+  influxdb:
+    restart: always
+
+  nats:
+    restart: always
+
+  routr:
+    restart: always
+
+  asterisk:
+    restart: always
+
+  apiserver:
+    restart: always
+
+  envoy:
+    restart: always
