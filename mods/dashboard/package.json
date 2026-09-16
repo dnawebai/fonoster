@@ -36,7 +36,7 @@
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.55.0",
     "react-json-view-lite": "^2.4.1",
-    "react-router": "^7.5.0",
+    "react-router": "^7.18.2",
     "sip.js": "0.21.2",
     "sonner": "^2.0.3",
     "zod": "^3.24.2",
@@ -53,7 +53,7 @@
     "@storybook/addon-onboarding": "^8.6.18",
     "@storybook/blocks": "^8.6.18",
     "@storybook/manager-api": "^8.6.18",
-    "@storybook/nextjs": "^8.6.18",
+    "@storybook/nextjs": "^10.6.0",
     "@storybook/react": "^8.6.18",
     "@storybook/react-vite": "^8.6.18",
     "@storybook/theming": "^8.6.18",
@@ -64,7 +64,7 @@
     "react-router-devtools": "^1.1.0",
     "storybook": "^8.6.18",
     "typescript": "^5.7.2",
-    "vite": "^5.4.11",
+    "vite": "^8.3.0",
     "vite-tsconfig-paths": "^5.1.4"
   }
 }
